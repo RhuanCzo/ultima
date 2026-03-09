@@ -101,7 +101,7 @@ function App() {
           style={{ borderRadius: "12px" }}
           src="https://open.spotify.com/embed/track/31VOknKjFrEX47bZXzqcoF?utm_source=generator"
           width="100%"
-          height="90"
+          height="80"
           title="video"
           allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -133,21 +133,20 @@ function App() {
 
       </Imagem>
 
-      <Top>
-        <h1> O tempo não passa já estou há {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos sem te ver ❤️</h1>
-      </Top>
-
       <Titulo>
-        <h1>Para a minha dançarina preferida a mulher da minha vida</h1>
+        <h1>Para a mulher da minha vida</h1>
       </Titulo>
 
       <Textinho>
         <h3>
-          Feliz dia das mulheres! ❤️
+          Feliz dia das mulheres!!!
+          Odeio coisas esperadas então que você não esteja esperando por isso.
           Amor, te amo muito e admiro você do fundo do meu coração.
-          Você é incrível, inteligente e perfeita como dançarina e como pessoa.
-          Amo tudo em você, desde as suas unhas até o seu sorriso.
-          Eu poderia ficar horas falando o quão perfeita você é.
+          Você é incrível, maravilhosa do jeito que é, inteligente e perfeita como pessoa, me sinto honrado em ao menos ter te conhecido.
+          Tenho orgulho de você como mulher e amo tudo em você, desde das suas unhas até o seu sorriso. As vezes tudo que eu queria era ir
+          para o futuro onde não tenha ninguém para nos atrapalhar mas não dá infelizmente.
+          Espero que você goste, por mais que eu não seja muito bom com palavras.
+          TE AMOOOOO ❤️
         </h3>
       </Textinho>
 
@@ -188,16 +187,6 @@ img, video {
   height: 100%;
   object-fit: contain;
 }
-`
-
-const Top = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-font-size: 10px;
-color: #F6F6FA;
-margin-top: 20px;
 `
 
 const Titulo = styled.div`
