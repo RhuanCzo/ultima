@@ -1,15 +1,21 @@
 {
-  "name": "ultimo",
+  "name": "para-voce",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.28.6",
+    "@babel/plugin-transform-private-property-in-object": "^7.28.6",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.11",
+    "svgo": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -17,6 +23,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
   },
   "eslintConfig": {
     "extends": [
